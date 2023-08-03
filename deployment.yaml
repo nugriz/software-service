@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: software-service
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      app: software-service
+  replicas: 1
+  template:
+    metadata:
+      name: software-service
+      labels:
+        app: software-service
+    spec:
+      containers:
+      - name: software-service
+        env:
+        - name: ENV_SERVER_EUREKA
+          value: 'http://discovery-service:8761/eureka'
+        - name: ENV_SERVER_DB
+          value: 'jdbc:postgresql://postgres:5432/postgresdb'
+        - name: ENV_USER_DB
+          value: 'postgresadmin'
+        - name: ENV_PASSWD_DB
+          value: 'admin123'
+        image: rizkinu/software-service:1.3
