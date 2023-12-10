@@ -1,4 +1,4 @@
-![alt text](https://drive.google.com/file/d/1p_CKhnKP6GWEEUnATd2yeWFqh_48Cvmk/view)
+![alt text](https://drive.google.com/file/d/1p_CKhnKP6GWEEUnATd2yeWFqh_48Cvmk/view?usp=sharing)
 API Gateway: https://github.com/nugriz/api-service
 Eureka Discovery: https://github.com/nugriz/discovery-service
 
