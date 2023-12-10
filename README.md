@@ -1,4 +1,4 @@
-![alt text](https://drive.google.com/file/d/1p_CKhnKP6GWEEUnATd2yeWFqh_48Cvmk/view?usp=sharing)
+![alt text](https://github.com/nugriz/software-service/blob/main/image_2023-12-10_13-28-02.png)
 API Gateway: https://github.com/nugriz/api-service
 Eureka Discovery: https://github.com/nugriz/discovery-service
 
